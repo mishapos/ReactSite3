@@ -6,8 +6,11 @@
             "redirect": "/index.html"
         }
     ],
-    "allowedIpRanges": 
-    [
-        "10.0.0.0/32"
-    ]
+    "networking":
+    {
+        "allowedIpRanges": 
+        [
+            "10.0.0.0/32"
+        ]
+    }
 }
