@@ -8,6 +8,6 @@
     ],
     "networking":
     {
-        allowedIpRanges: ["0.0.0.0/0"]
+        "allowedIpRanges": ["0.0.0.0/0"]
     }
 }
