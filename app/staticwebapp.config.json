@@ -5,8 +5,5 @@
             "route": "/fakeroute",
             "redirect": "/index.html"
         }
-    ],
-    "networking": {
-        "allowedIpRanges": ["AzureFrontDoor.Frontend","AzureFrontDoor.Backend", "AzureFrontDoor.FirstParty", "131.107.1.1/16"]
-    }
+    ]
 }
