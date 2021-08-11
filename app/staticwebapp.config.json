@@ -7,6 +7,6 @@
         }
     ],
     "networking": {
-        "allowedIpRanges": ["AzureFrontDoor.Frontend", "AzureFrontDoor.Backend", "AzureFrontDoor.FirstParty"]
+        "allowedIpRanges": ["AzureFrontDoor.Frontend", "AzureFrontDoor.Backend", "AzureFrontDoor.FirstParty", "131.107.147.0/24"]
     }
 }
