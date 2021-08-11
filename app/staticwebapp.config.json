@@ -7,6 +7,6 @@
         }
     ],
     "networking": {
-        "allowedIpRanges": ["131.107.0.0/16"]
+        "allowedIpRanges": ["131.107.0.0/16", "1.2.3.4.5.6.7"]
     }
 }
