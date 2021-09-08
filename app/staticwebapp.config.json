@@ -5,6 +5,10 @@
             "allowedRoles": [
                 "Red"
             ]
+        },
+        {
+            "route": "/login",
+            "redirect": "/.auth/login/github"
         }
     ]
 }
