@@ -1,9 +1,10 @@
 {
-    "routes": 
-    [
+    "routes": [
         {
-            "route": "/fakeroute",
-            "redirect": "/index.html"
+            "route": "/profile",
+            "allowedRoles": [
+                "Red"
+            ]
         }
     ]
 }
