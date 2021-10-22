@@ -16,7 +16,7 @@
         },
         {
             "route": "/logout",
-            "rewrite": "/.auth/logout/aad?post_logout_redirect_uri=/profile.html%23fragment"
+            "rewrite": "/.auth/logout?post_logout_redirect_uri=/profile.html%23fragment"
         }
     ]
 }
