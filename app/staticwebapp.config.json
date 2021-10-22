@@ -15,8 +15,8 @@
             "redirect": "/#about"
         },
         {
-            "route": "Venäjä",
-            "redirect": "/urheilupäivä.html"
+            "route": "finnish",
+            "redirect": "/loplabbet-strømmen.html"
         }
         {
             "route": "/logout",
