@@ -17,6 +17,16 @@
         {
             "route": "/logout",
             "rewrite": "/.auth/logout?post_logout_redirect_uri=/profile.html%23fragment"
+        },
+        {
+            "route": "/index",
+            "headers": {
+                "X-Robots-TAG": "mishapos-custom-robots-header"
+            }
         }
-    ]
+    ],
+    "globalHeaders":
+    {
+        "x-robots-tags": "mishapos-global-robots-header"
+    }
 }
