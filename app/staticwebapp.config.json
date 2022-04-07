@@ -21,12 +21,12 @@
         {
             "route": "/index",
             "headers": {
-                "X-Robots-TAG": "mishapos-custom-robots-header"
+                "X-Robots-Tag": "mishapos-custom-robots-header"
             }
         }
     ],
     "globalHeaders":
     {
-        "x-robots-tags": "mishapos-global-robots-header"
+        "x-robots-tag": "mishapos-global-robots-header"
     }
 }
