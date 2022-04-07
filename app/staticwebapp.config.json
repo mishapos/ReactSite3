@@ -24,9 +24,5 @@
                 "X-Robots-Tag": "mishapos-custom-robots-header"
             }
         }
-    ],
-    "globalHeaders":
-    {
-        "x-robots-tag": "mishapos-global-robots-header"
-    }
+    ]
 }
