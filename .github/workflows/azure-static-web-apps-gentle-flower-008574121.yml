@@ -32,8 +32,9 @@ jobs:
           app_location: "app" # App source code path
           api_location: "api" # Api source code path - optional
           output_location: "" # Built app content directory - optional
-          #deployment_environment: "potato"
+          deployment_environment: "potato"
           production_branch: "master"
+          hot_potato: "mine"
           ###### End of Repository/Build Configurations ######
       - name: List of the GitHub Actions environment variables on Windows
         run: env
