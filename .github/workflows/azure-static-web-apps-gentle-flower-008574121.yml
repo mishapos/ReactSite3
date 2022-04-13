@@ -35,6 +35,8 @@ jobs:
           #deployment_environment: "potato"
           production_branch: "master"
           ###### End of Repository/Build Configurations ######
+      - name: List of the GitHub Actions environment variables on Windows
+        run: env
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
